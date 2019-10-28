@@ -16,9 +16,6 @@ public class TestClusterJedis {
 		nodeSet.add(new HostAndPort("192.168.80.10", 6389));
 //		nodeSet.add(new HostAndPort("192.16.80.10", 6380));
 //		nodeSet.add(new HostAndPort("192.16.80.10", 6381));
-//		nodeSet.add(new HostAndPort("192.16.80.10", 6389));
-//		nodeSet.add(new HostAndPort("192.16.80.10", 6390));
-//		nodeSet.add(new HostAndPort("192.16.80.10", 6391));
 		
 		JedisCluster jedisCluster = new JedisCluster(nodeSet);
 		
